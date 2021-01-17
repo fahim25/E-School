@@ -1,0 +1,323 @@
+/*
+==================================
+|   |   Globel CSS
+==================================
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    -wevkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body{
+    font-family:'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+img{
+    max-width: 100%;
+}
+
+li{
+    list-style: none;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    width: 1200px;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-3{
+    width: 25%;
+    padding: 15px;
+}
+
+.col-4{
+    
+    width: 33.33%;
+    padding: 15px;
+}
+
+p{
+    font-size: 20px;
+    color: #39393b;
+    margin-bottom: 10px;
+}
+
+.btn-custom{
+    color: #413960;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition-duration: 300ms;
+    transition: all 300ms linear;
+    background: #21b573;
+    color: #fff;
+    margin-top: 30px;
+}
+
+/*
+==================================
+|   |   Banner Section
+==================================
+*/
+
+.banner-section{
+    background-color: #f0fff0;
+}
+
+header{
+    padding: 20px 0;
+}
+
+.logo{
+    width: 15%;
+}
+
+
+
+nav{
+    width: 85%;
+}
+
+nav ul{
+    justify-content: flex-end;
+}
+
+
+
+nav ul li a{
+    color: #413960;
+    font-size: 20px;
+    padding: 10px 20px;
+    display: block;
+    border-radius: 30px;
+    transition-duration: 300ms;
+    transition: all 300ms linear;
+}
+
+nav ul li a:hover{
+    background: #21b573;
+    color: #fff;
+    
+}
+
+.banner-content{
+     width:45%; 
+    padding: 15px;
+}
+
+.banner-content span{
+    color: #fd511a;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+
+.banner-content h1{
+    font-size: 52px;
+    line-height: 1;
+    margin: 20px 0;
+}
+
+.banner-content h1 span{
+    color: #21b573 !important;
+    font-size: 52px !important;
+    letter-spacing: 1px !important;
+}
+
+.banner-content p{
+    margin-bottom: 50px;
+}
+
+.banner-img{
+    width: 55%;
+    padding: 15px;
+}
+
+/*
+==================================
+|   |   Features Section
+==================================
+*/
+.features-section{
+    padding: 50px 0px;
+}
+
+.features{
+    padding: 40px 30px;
+    background: honeydew;
+    text-align: center;
+    border-radius: 10px;
+    transition: 300ms;
+}
+
+.features:hover{
+    box-shadow: 0px 10px 40px 0px #00000040;
+    background: none;
+
+}
+
+.features img{
+    height: 80px;
+}
+
+.features h3{
+    font-size: 22px;
+    color: #413960;
+    margin: 10px 0 5px;
+}
+
+.features p{
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.features img{
+    
+}
+
+/*
+==================================
+|   |   Courses Section
+==================================
+*/
+
+.Course-section{
+    
+}
+
+.title{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.title h2{
+    font-size: 32px;
+}
+
+
+.courses{
+    box-shadow: 0px 10px 40px 0px #00000040;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+
+.courses h3{
+    font-size: 22px;
+    color: #413960;
+    margin: 10px 0 5px;
+}
+
+
+.courses span{
+    color: #413960;
+    font-size: 18px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.courses ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.courses ul li{
+    color: #413960;
+    font-size: 15px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+/*
+==================================
+|   |   Testimonial Section
+==================================
+*/
+
+.testimonial-section{
+    padding: 50px 0px;
+    
+}
+.testimonial-section .flex{
+    justify-content: center;
+    align-items: center;
+}
+.clint-img{
+    width: 15%;
+    padding: 15px;
+}
+
+.clint-img img{
+    
+}
+
+.clint-content{
+    width: 60%;
+    padding: 15px;
+}
+
+.clint-content p{
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+
+/*
+==================================
+|   |   Footer Section
+==================================
+*/
+footer{
+    background: #090a17;
+    padding: 40px 0 10px; 
+    color: #fff;
+}
+
+footer p{
+    color: #fff;
+    font-size: 16px;
+}
+
+
+
+footer ul li strong{
+    font-size: 22px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+footer ul li a{
+    color: #fff;
+    font-size: 16px;
+    display: block;
+    padding: 4px 0;
+}
+
+footer ul li a:hover{
+    
+}
+.copy{ 
+    justify-content: center;
+    margin-top: 30px;
+}
+.copy p{
+    font-size: 16px;
+    color: #fff;
+}

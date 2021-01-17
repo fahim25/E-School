@@ -1,0 +1,197 @@
+@media (max-width:1199px) {
+    .container {
+        width: 860px;
+    }
+
+    .banner-content span {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .banner-content h1 {
+        font-size: 42px;
+    }
+
+    .banner-content h1 span {
+        font-size: 42px !important;
+    }
+
+
+    .features {
+        padding: 45px 20px;
+    }
+
+    .features h3 {
+        font-size: 18px;
+    }
+
+    .courses ul li {
+        font-size: 13px;
+    }
+
+    .clint-img {
+        width: 20%;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+
+    footer ul li a {
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width:991px) {
+    .container {
+        width: 700px;
+    }
+
+    nav {
+        width: 75%;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+        padding: 8px 28px;
+    }
+
+    .logo {
+        width: 20%;
+    }
+
+
+    .banner-content h1 {
+        font-size: 32px;
+    }
+
+    .banner-content h1 span {
+        font-size: 32px !important;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .banner-content p {
+        margin-bottom: 20px;
+    }
+
+
+    .features-section .col-3 {
+        width: 50%;
+    }
+
+    .courses h3 {
+        font-size: 16px;
+    }
+
+    .courses span {
+        font-size: 14px;
+    }
+
+    .courses a {
+        font-size: 14px;
+    }
+
+    .courses ul li:last-child {
+        display: none;
+    }
+
+
+    .testimonial-section {
+        padding: 20px 0px;
+
+    }
+
+    footer .container .col-3:first-child {
+        width: 80%;
+    }
+
+    footer .container {
+        justify-content: center;
+    }
+
+}
+
+@media (max-width:767px) {
+    .container {
+        width: 560px;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .logo a img {
+        width: 200px;
+        margin: auto;
+        display: block;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    nav ul {
+        justify-content: center;
+    }
+
+    header {
+        padding: 5px 0;
+    }
+
+    .banner-content {
+        width: 70%;
+        text-align: center;
+    }
+
+    .flex {
+        justify-content: center;
+    }
+
+    .banner-img {
+        width: 60%;
+        padding: 15px 30px;
+        order: -1;
+    }
+
+    .Course-section .col-4 {
+        width: 50%;
+    }
+
+    .testimonial-section {
+        padding: 20px 0px;
+
+    }
+
+
+    .clint-content {
+        width: 90%;
+        text-align: center;
+    }
+
+
+    footer p {
+        font-size: 14px;
+    }
+
+    footer ul li a {
+        font-size: 14px;
+    }
+
+
+
+
+}
+
+@media (max-width:575px) {
+    .container {
+        width: 100%;
+    }
+
+
+}
+
+@media (max-width:400px) {}
